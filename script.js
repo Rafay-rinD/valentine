@@ -14,10 +14,7 @@
       "Soch lo...",
       "😭😭😭",
       "🥺🥺🥺"
-    ];
-
-    // console.log(noTexts[5]);
-    
+    ];    
 
     let clickCount = 0;
 
@@ -63,12 +60,6 @@
         }, 5000);
       }, 300);
     }
-
-// const  preLoad = () =>{
-//   body.preLoad();
-// }
-
-// preloader
 
 const btnSong = document.getElementById("btnSong");
 const preloader = () =>{
