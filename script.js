@@ -40,10 +40,17 @@
       }
     });
 
-
+    const name = document.querySelector(".name");
+    const para = document.querySelector(".para");
+    const heart = document.querySelector(".bigheart");
     yesBtn.addEventListener("click", () => {
       message.style.display = "block";
       noBtn.style.display = "none";
+      name.style.display = "none";
+      para.style.display = "none";
+      yesBtn.style.display = "none";
+      heart.style.display = "block";
+      heart.classList.add("animate__zoomIn")
       startHearts();
     });
 
@@ -131,3 +138,6 @@ const preloader = () =>{
     btnSong.style.display = "none";
     preloader();    
   }
+
+
+
